@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4023.119" ClassName="CNestedCppProjDef">
+	<Project GUID="{3C4D9390-7AE1-4E8E-8EF0-ED1E1CB15D3C}" Name="CPPVP1" PrjFilePath="..\..\..\..\..\..\Users\John\source\repos\TC3CPP-Playground\TC3CPP-Playground\CPPVP1\CPPVP1.vcxproj" TmcFilePath="..\..\..\..\..\..\Users\John\source\repos\TC3CPP-Playground\TC3CPP-Playground\CPPVP1\CPPVP1.tmc"/>
+</TcSmItem>
