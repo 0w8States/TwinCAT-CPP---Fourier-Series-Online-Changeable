@@ -197,7 +197,10 @@ HRESULT CSignalsDemo::CycleUpdate(ITcTask* ipTask, ITcUnknown* ipCaller, ULONG_P
 	hr = FAILED(hr) ? hr : ipTask->GetCycleTime(&m_pOutputs->TaskCycleTime);
 	_TaskTime = m_pOutputs->TaskCycleTime / 1000000.0;
 
-	SignalType = Pulse;
+	// Type of signal to generate
+	SignalType = Square;
+
+	// Run calculation and return output
 	m_pOutputs->Value = GenerateSignal(harmonics, amplitude, frequency);
 
 	return hr;
@@ -206,8 +209,8 @@ HRESULT CSignalsDemo::CycleUpdate(ITcTask* ipTask, ITcUnknown* ipCaller, ULONG_P
 
 double CSignalsDemo::GenerateSignal(int harmonics, double amplitude, double frequency)
 {
-	float _fsCalculation = 0.0;
-	float _theta = 0.0;
+	double _fsCalculation = 0.0;
+	double _theta = 0.0;
 	int Index = 0;
 
 	_theta = CalcTheta(frequency);
@@ -222,9 +225,9 @@ double CSignalsDemo::GenerateSignal(int harmonics, double amplitude, double freq
 
 double CSignalsDemo::CalcTheta(double frequency)
 {
-	float _timeBase = 0;
-	float _maxTheta = 0;
-	float _stepSize = 0;
+	double _timeBase = 0;
+	double _maxTheta = 0;
+	double _stepSize = 0;
 
 	// Calculate Theta
 	_timeBase = ((1.0 / frequency) * 1000.0) / this->_TaskTime;
@@ -243,9 +246,9 @@ double CSignalsDemo::CalcTheta(double frequency)
 
 double CSignalsDemo::CalcCoefficient(int N) {
 
-	float first = 0.01;
-	float second = 0.01;
-	float temp;
+	double first = 0.01;
+	double second = 0.01;
+	double temp;
 
 	switch (SignalType) 
 	{

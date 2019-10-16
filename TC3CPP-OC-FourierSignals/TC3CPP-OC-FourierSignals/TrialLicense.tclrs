@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<TcLicenseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2011/11/TcLicenseInfo">
+	<LicenseInfo>
+		<SystemId>{4924AC63-6370-FC2D-E190-F93FA5E9BAC0}</SystemId>
+		<IssueTime>2019-10-16T20:47:00</IssueTime>
+		<ExpireTime>2019-10-24T00:00:00</ExpireTime>
+		<LicenseKey>2cd7f55be045c1406ce4b244f728aaa4200ff7ebd293cb969bc93a8e08605a42ccd48aed5173b5f32bc9dd0756487a97570342d92d96ba9200201075472fd1e95f806559e151fd796064bc556eea7c70b83c11b4b7e9df3f27e895e283a96fef4d23df76590d55b212b6ac5e0b3a83515896615af2b16db0453c4e3037efb89d2cd6e96efb7d7a38701bdf644202adab401ee4633d97fcde83882fc73424fdd2653e9ea128db72fdcc09e0213d84d51e29f90a705291f5afe66bd0f98f39a86b30e9459ad2c2199b28a378acf41690aaf76ff757750b4211eb66121a81351e7b5819e0b3869beb53613673c8fb46249061db23bcf0d6c3d358627aa2ebb3b0e6</LicenseKey>
+		<License>
+			<LicenseId>{4C256767-E6E6-4AF5-BD68-9F7ABAD0C200}</LicenseId>
+			<Name>TC3 ADS</Name>
+			<OrderNo>TC1000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{3FF18E97-7754-401B-93FB-70544DE28A13}</LicenseId>
+			<Name>TC3 IO</Name>
+			<OrderNo>TC1100</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{304D006A-8299-4560-AB79-438534B50288}</LicenseId>
+			<Name>TC3 C++</Name>
+			<OrderNo>TC1300</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{4989A799-AEEA-4FEE-88EF-666B99EEFB45}</LicenseId>
+			<Name>TC3 Scope View Professional</Name>
+			<OrderNo>TE1300</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{3DDCAB25-BF0E-412C-A721-DC77C1B8099C}</LicenseId>
+			<Name>TC3 Scope Server</Name>
+			<OrderNo>TF3300</OrderNo>
+		</License>
+	</LicenseInfo>
+</TcLicenseInfo>

@@ -47,6 +47,7 @@ protected:
 
 	ITcADIPtr m_spADI;
 
+	// Used for signal generation
 	E_FourierType SignalType;
 	double _Theta;
 	double _TaskTime;
