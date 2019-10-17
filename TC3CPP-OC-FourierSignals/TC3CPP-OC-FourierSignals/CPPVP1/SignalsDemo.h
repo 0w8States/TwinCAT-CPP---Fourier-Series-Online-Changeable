@@ -51,8 +51,8 @@ protected:
 	E_FourierType SignalType;
 	double _Theta;
 	double _TaskTime;
-	int harmonics = 5;
+	int harmonics = 12;
 	double amplitude = 1.0;
-	double frequency = 0.250; // Frequency in Hz
+	double frequency = 1.00; // Frequency in Hz
 
 };

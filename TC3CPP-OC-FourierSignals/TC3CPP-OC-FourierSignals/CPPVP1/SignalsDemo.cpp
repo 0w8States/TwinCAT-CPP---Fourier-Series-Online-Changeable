@@ -198,7 +198,7 @@ HRESULT CSignalsDemo::CycleUpdate(ITcTask* ipTask, ITcUnknown* ipCaller, ULONG_P
 	_TaskTime = m_pOutputs->TaskCycleTime / 1000000.0;
 
 	// Type of signal to generate
-	SignalType = Square;
+	SignalType = Pulse;
 
 	// Run calculation and return output
 	m_pOutputs->Value = GenerateSignal(harmonics, amplitude, frequency);

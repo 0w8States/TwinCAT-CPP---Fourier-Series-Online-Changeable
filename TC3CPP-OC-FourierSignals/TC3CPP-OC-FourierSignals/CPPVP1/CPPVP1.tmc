@@ -125,6 +125,6 @@
   </Modules>
   <Library>
     <Name>CPPVP1</Name>
-    <Version>0.0.0.1</Version>
+    <Version>0.0.0.5</Version>
   </Library>
 </TcModuleClass>
