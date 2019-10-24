@@ -1,8 +1,8 @@
 # TwinCAT C++ - Fourier Series Online Changeable
 
-This project include an RT Online Changeable driver module with versioning for TwinCAT build 4024. To use the module, you will want to first set the default publish version in the TMC editor, and then adjust your project settings to build against your OEM certificate from Beckhoff.
+This project includes an RT Online Changeable driver module with versioning for TwinCAT build 4024. To use the module, you will want to first set the default publish version in the TMC editor, and then adjust your project settings to build against your OEM certificate.
 
-If you do not have an OEM Cert, you can self-sign one, and put your PC in test mode; the steps are on Infosys.
+If you do not have an OEM Cert, you can self-sign one, and put your PC in test mode; the steps are on https://infosys.Beckhoff.com.
 
 # Use of the code
 
