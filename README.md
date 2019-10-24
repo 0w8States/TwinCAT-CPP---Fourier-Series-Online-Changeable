@@ -7,6 +7,7 @@ If you do not have an OEM Cert, you can self-sign one, and put your PC in test m
 # Use of the code
 
 Inside SignalDemo.cpp you will find the main code, and you can assign the type of signal here:
+
 See this link for the signal types: https://en.wikipedia.org/wiki/Fourier_series
 
 ```CPP
