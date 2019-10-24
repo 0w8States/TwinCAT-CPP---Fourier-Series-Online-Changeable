@@ -10,24 +10,24 @@ Inside SignalDemo.cpp you will find the main code, and you can assign the type o
 See this link for the signal types: https://en.wikipedia.org/wiki/Fourier_series
 
 ```CPP
-	// Type of signal to generate
-	SignalType = Pulse;
+// Type of signal to generate
+SignalType = Pulse;
 ```
 
 There are a few different signal types to choose from:
 
 ```CPP
-    Square
-    Sawtooth
-    Triangle
-    Fibonacci
-    Pulse
+Square
+Sawtooth
+Triangle
+Fibonacci
+Pulse
 ```
 
 There are also some various settings in the hedder file to play with:
 
 ```CPP
-	int harmonics = 12;
-	double amplitude = 1.0;
-	double frequency = 1.00; // Frequency in Hz
+int harmonics = 12;
+double amplitude = 1.0;
+double frequency = 1.00; // Frequency in Hz
 ```
